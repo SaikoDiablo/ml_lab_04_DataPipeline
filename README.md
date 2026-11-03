@@ -1,6 +1,6 @@
 # Lab 04 — Data Pipeline and Quality (UCI Adult)
 
-**Course:** Machine Learning — Semester 5
+**Course:** Machine Learning 
 **Dataset:** UCI Adult (`fetch_openml(name='adult', version=2, as_frame=True)`)
 **Task:** Binary classification — predict whether `income > 50K`
 **Metrics:** Accuracy and F1
