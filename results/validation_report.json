@@ -1,0 +1,124 @@
+{
+  "n_rows": 48842,
+  "checks": {
+    "age": {
+      "present": true,
+      "type_expected": "int",
+      "missing_count": 0,
+      "type_violations": 0,
+      "range": {
+        "min": 17,
+        "max": 90
+      },
+      "range_violations": 0
+    },
+    "workclass": {
+      "present": true,
+      "type_expected": "category",
+      "missing_count": 2799,
+      "allowed_size": 8,
+      "category_violations": 0
+    },
+    "fnlwgt": {
+      "present": true,
+      "type_expected": "int",
+      "missing_count": 0,
+      "type_violations": 0
+    },
+    "education": {
+      "present": true,
+      "type_expected": "category",
+      "missing_count": 0,
+      "allowed_size": 16,
+      "category_violations": 0
+    },
+    "education-num": {
+      "present": true,
+      "type_expected": "int",
+      "missing_count": 0,
+      "type_violations": 0
+    },
+    "marital-status": {
+      "present": true,
+      "type_expected": "category",
+      "missing_count": 0,
+      "allowed_size": 7,
+      "category_violations": 0
+    },
+    "occupation": {
+      "present": true,
+      "type_expected": "category",
+      "missing_count": 2809,
+      "allowed_size": 14,
+      "category_violations": 0
+    },
+    "relationship": {
+      "present": true,
+      "type_expected": "category",
+      "missing_count": 0,
+      "allowed_size": 6,
+      "category_violations": 0
+    },
+    "race": {
+      "present": true,
+      "type_expected": "category",
+      "missing_count": 0,
+      "allowed_size": 5,
+      "category_violations": 0
+    },
+    "sex": {
+      "present": true,
+      "type_expected": "category",
+      "missing_count": 0,
+      "allowed_size": 2,
+      "category_violations": 0
+    },
+    "capital-gain": {
+      "present": true,
+      "type_expected": "int",
+      "missing_count": 0,
+      "type_violations": 0,
+      "range": {
+        "min": 0,
+        "max": 99999
+      },
+      "range_violations": 0
+    },
+    "capital-loss": {
+      "present": true,
+      "type_expected": "int",
+      "missing_count": 0,
+      "type_violations": 0,
+      "range": {
+        "min": 0,
+        "max": 4356
+      },
+      "range_violations": 0
+    },
+    "hours-per-week": {
+      "present": true,
+      "type_expected": "int",
+      "missing_count": 0,
+      "type_violations": 0,
+      "range": {
+        "min": 1,
+        "max": 99
+      },
+      "range_violations": 0
+    },
+    "native-country": {
+      "present": true,
+      "type_expected": "category",
+      "missing_count": 857,
+      "allowed_size": 41,
+      "category_violations": 0
+    },
+    "income": {
+      "present": true,
+      "type_expected": "category",
+      "missing_count": 0,
+      "allowed_size": 2,
+      "category_violations": 0
+    }
+  }
+}

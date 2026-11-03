@@ -1,0 +1,14 @@
+seed: 42
+test_size: 0.30
+dataset:
+  name: adult
+  version: 2
+paths:
+  results_dir: results
+  preprocessor: results/preprocessor.joblib
+  processed_hash: results/processed_hash.txt
+  validation_report: results/validation_report.json
+  data_card: results/data_card.md
+outlier_percentiles: [1, 99]
+label_audit:
+  n_rows: 50
