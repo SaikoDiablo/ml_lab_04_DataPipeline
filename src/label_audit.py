@@ -8,7 +8,7 @@ FEATURE_COLUMNS = [
 
 
 def duplicate_conflict_audit(df: pd.DataFrame) -> dict:
-    grouped = df.groupby(FEATURE_COLUMNS, dropna=False)["income"].nunique()
+    grouped = df.groupby(FEATURE_COLUMNS, dropna=True, observed=True)["income"].nunique()
     conflicting_groups = grouped[grouped > 1]
     n_conflicts = int(conflicting_groups.sum())
     print(f"[label_audit] duplicate feature rows with conflicting income: "
