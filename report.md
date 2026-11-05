@@ -18,8 +18,6 @@ Ran a LogisticRegression baseline with and without them to see if they help.
 
 Label-quality check: duplicate-conflict audit (group feature columns, count distinct income labels) plus a manual inspection of 50 random rows for impossible values.
 
-Finally computed SHA256 of the processed dataset and wrote `data_card.md` (source, license, size, known biases, privacy concerns).
-
 ## Results
 
 **Ingestion and cleaning**
